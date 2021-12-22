@@ -4,7 +4,7 @@ function generateVariants()
 
     var phone = document.getElementById("phonenumber").value;
     searchQuery = "\"+"+phone+"\" OR ";
-	searchQuery = searchQuery+"\""+phone.substr(0, 1)+" "+phone.substr(1, 3)+" "+phone.substr(4, 3)+" "+phone.substr(7, 2)+" "+phone.substr(9, 2)+"\" OR ";
+	searchQuery = searchQuery+"\""+phone.substr(0, 2)+" "+phone.substr(2, 3)+" "+phone.substr(5, 3)+" "+phone.substr(8, 3)+"\" OR ";
 	searchQuery = searchQuery +"\""+phone.substr(0, 4)+" "+phone.substr(4, 3)+" "+phone.substr(7, 2)+" "+phone.substr(9, 2)+"\" OR ";
     searchQuery = searchQuery+"\""+phone.substr(0, 1)+" "+phone.substr(1, 3)+" "+phone.substr(4, 3)+"-"+phone.substr(7, 2)+"-"+phone.substr(9, 2)+"\" OR ";
     searchQuery = searchQuery+"\"+"+phone.substr(0, 1)+" "+phone.substr(1, 3)+" "+phone.substr(4, 3)+"-"+phone.substr(7, 2)+"-"+phone.substr(9, 2)+"\" OR ";
