@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Phone number search constructor</title>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=en-US&amp;apikey=dd2f32f4-ec03-4262-9a22-534440cf66bd" type="text/javascript"></script>
+      <script src="script.js"></script>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container">
+      <div class="jumbotron">
+         <h2>Constructor de busquedas de telefono</h2>
+
+           <form>
+                     <div class="form-group">
+                        <label>Numero de telefono:</label>
+                        <input type="text" class="form-control" value="34" id="phonenumber">
+                       
+                     </div>
+
+                 </form>
+                   <hr>
+ <button type="button" onclick="generateVariants()" style="background-color:blue;color:white" class="btn-link">Generar dork</button>
+ <div class="well" id="result">
+ </div>
+  <button type="button" onclick="openQuery('Google')" style="background-color:blue;color:white" class="btn-link">Google</button>
+  <button type="button" onclick="openQuery('Bing')" style="background-color:blue;color:white" class="btn-link">Bing</button>
+  <button type="button" onclick="openQuery('Yandex')" style="background-color:blue;color:white" class="btn-link">Yandex</button>
+  <hr>
+   
+
+
+
+          
+      </div>
+ 
+   </body>
+</html>
