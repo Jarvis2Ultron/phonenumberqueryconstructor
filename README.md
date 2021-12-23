@@ -1,3 +1,4 @@
 # phonenumberqueryconstructor
-A very simple tool that generates multiple spellings of a phone number (to effectively search for it using the OR operator and quotes)
+Herramienta sencilla para crear dorks y realizar busqueda en Google, Bing y Yandex.
+
 https://jarvis2ultron.github.io/phonenumberqueryconstructor/
